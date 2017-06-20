@@ -1,0 +1,285 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      9280,        277]
+NotebookOptionsPosition[      6120,        192]
+NotebookOutlinePosition[      6492,        208]
+CellTagsIndexPosition[      6449,        205]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Objective", "Section",
+ CellChangeTimes->{{3.706956888190056*^9, 
+  3.7069568903405437`*^9}},ExpressionUUID->"658e3568-ba6b-4a20-a1ed-\
+16e9a3fec13b"],
+
+Cell["\<\
+Create a series of modules (walk-throughs, cdfs, things like the homework, \
+not exactly sure what to call them) to improve students\[CloseCurlyQuote] \
+computational and quantitative literacy using examples grounded in Neural \
+Systems.\
+\>", "Text",
+ CellChangeTimes->{
+  3.7069570937725067`*^9},ExpressionUUID->"7da1f178-78a1-4249-b102-\
+5687724a6d66"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Topics of Interest", "Section",
+ CellChangeTimes->{{3.70695733183281*^9, 3.7069573509709005`*^9}, {
+  3.7069575018329287`*^9, 
+  3.7069575070967083`*^9}},ExpressionUUID->"7de1b2d9-840c-4638-803c-\
+bddd76891ade"],
+
+Cell["More may be added if I think of them", "Text",
+ CellChangeTimes->{{3.706957526269472*^9, 3.7069575272008247`*^9}, {
+  3.7069575575339484`*^9, 3.7069575660634375`*^9}, {3.7069576259485216`*^9, 
+  3.706957628180729*^9}, {3.7069576975304146`*^9, 
+  3.7069577041152897`*^9}},ExpressionUUID->"7f106ab0-c898-4ac0-8151-\
+0c221337aeb5"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Creating PSTHs and Tuning Curves (under construction in homework)\
+\>", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.7069577376770253`*^9}},ExpressionUUID->"dd5f3262-fbea-4389-90be-\
+ebabdf60dd54"],
+
+Cell["Neural Activity -> Perception (compression/expansion) ", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.7069577744695497`*^9}},ExpressionUUID->"6bae2d6d-68af-46a5-8267-\
+5ca7c168ddb0"],
+
+Cell["Key Concept: Understanding logarithms and log-log plots", "Subitem",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.706957790602129*^9}},ExpressionUUID->"957fd7a7-89c8-4b47-a0ac-\
+2f152fa621d0"],
+
+Cell["Population Coding/Vector Averaging", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 3.7069578041393166`*^9}, {
+  3.7069579039927487`*^9, 
+  3.706957908929496*^9}},ExpressionUUID->"f4cdabc3-3544-47af-af6b-\
+9f9059d8b188"],
+
+Cell["Coordinate transformations.  For example,", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.7069578392990294`*^9}},ExpressionUUID->"4cbabe24-7cd3-41fb-8950-\
+97183962e90f"],
+
+Cell[CellGroupData[{
+
+Cell["Visual Space vs Central Map", "Subitem",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.706957852715007*^9}},ExpressionUUID->"15c8176e-a8f8-4097-a52b-\
+b06402ed32cb"],
+
+Cell["Ego-centric vs Allo-centric", "Subitem",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.706957859812228*^9}},ExpressionUUID->"9d390c22-980f-4b89-b6c7-\
+173e8ca9cf14"],
+
+Cell["Receptive Fields/Point Images/Receptive Field Images", "Subitem",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.706957878173275*^9}},ExpressionUUID->"a848e08f-f456-4753-a7ec-\
+3e5e803f93b7"]
+}, Open  ]],
+
+Cell["Lateral Inhibition", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.7069578814268856`*^9}},ExpressionUUID->"3658672c-5bf7-4642-a320-\
+11bf0d39e544"],
+
+Cell["Efference Copy", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.7069578863756795`*^9}},ExpressionUUID->"6ef6ad2f-d210-476f-95a7-\
+1f5e72d77e79"],
+
+Cell["Control Systems (Black boxes and labeled arrows)", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 3.706957917062019*^9}, {
+  3.7069579698802123`*^9, 
+  3.7069579709500747`*^9}},ExpressionUUID->"599232e1-b1ba-43b7-91d6-\
+e8337e573295"],
+
+Cell["Interpreting Data Figures (???)", "Item",
+ CellChangeTimes->{{3.706957711992591*^9, 
+  3.7069579433306417`*^9}},ExpressionUUID->"24620b00-e993-4c09-bfe3-\
+e70e702a1778"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Potential Set of Above Topics", "Section",
+ CellChangeTimes->{{3.706957957610384*^9, 
+  3.7069579885172305`*^9}},ExpressionUUID->"d15e4280-b85e-47fc-bd03-\
+10498b90764f"],
+
+Cell[CellGroupData[{
+
+Cell["Population Coding in the Superior Colliculus", "Subsection",
+ CellChangeTimes->{{3.7069581613772993`*^9, 
+  3.7069581677248297`*^9}},ExpressionUUID->"d4141fbd-f10f-49d5-8d8d-\
+6a3d6aa53185"],
+
+Cell[CellGroupData[{
+
+Cell["Coordinate Transformations (RFs/PI/RFIs)", "Item",
+ CellChangeTimes->{{3.7069582364838123`*^9, 
+  3.7069582493327484`*^9}},ExpressionUUID->"a69164d6-5cfa-4402-8f07-\
+15e442ae188f"],
+
+Cell["Tuning Curves", "Item",
+ CellChangeTimes->{{3.7069582364838123`*^9, 
+  3.706958251572262*^9}},ExpressionUUID->"112b77a5-2a49-49c2-b7ed-\
+95895a5749d4"],
+
+Cell["Population Coding", "Item",
+ CellChangeTimes->{{3.7069582364838123`*^9, 
+  3.706958253921648*^9}},ExpressionUUID->"f8926a66-49bb-4c8c-a5a9-\
+2c01a6e1c78d"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Additionally", "Section",
+ CellChangeTimes->{{3.7069583553018703`*^9, 
+  3.7069583639721985`*^9}},ExpressionUUID->"08689b3c-c5aa-4cac-80f9-\
+775b4e36f9f3"],
+
+Cell[CellGroupData[{
+
+Cell["Assessment", "Subsection",
+ CellChangeTimes->{{3.70695842073687*^9, 
+  3.7069584767583714`*^9}},ExpressionUUID->"d983b85a-96e6-431b-9b85-\
+ef702b45ca40"],
+
+Cell[CellGroupData[{
+
+Cell["Pretest/Posttest to assess computational thinking", "Item",
+ CellChangeTimes->{{3.7069585806561537`*^9, 
+  3.7069586080143723`*^9}},ExpressionUUID->"50b11ff7-2206-4697-8f41-\
+e89f21edc2fc"],
+
+Cell["Improved comprehension for topics using modules", "Item",
+ CellChangeTimes->{{3.7069585806561537`*^9, 
+  3.7069586389618444`*^9}},ExpressionUUID->"fd0010dd-f52c-4025-a0d2-\
+af4757f4d819"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["Reflection/Metacognition", "Subsection",
+ CellChangeTimes->{{3.7069586483612995`*^9, 
+  3.7069586519769173`*^9}},ExpressionUUID->"b115d203-1e96-48df-a13e-\
+25122c9cbec0"]
+}, Open  ]]
+},
+WindowSize->{808, 901},
+WindowMargins->{{-5, Automatic}, {Automatic, 6}},
+Magnification:>0.9 Inherited,
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (April 27, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 156, 3, 62, "Section", "ExpressionUUID" -> \
+"658e3568-ba6b-4a20-a1ed-16e9a3fec13b"],
+Cell[742, 27, 365, 8, 47, "Text", "ExpressionUUID" -> \
+"7da1f178-78a1-4249-b102-5687724a6d66"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1144, 40, 217, 4, 62, "Section", "ExpressionUUID" -> \
+"7de1b2d9-840c-4638-803c-bddd76891ade"],
+Cell[1364, 46, 334, 5, 28, "Text", "ExpressionUUID" -> \
+"7f106ab0-c898-4ac0-8151-0c221337aeb5"],
+Cell[CellGroupData[{
+Cell[1723, 55, 217, 5, 27, "Item", "ExpressionUUID" -> \
+"dd5f3262-fbea-4389-90be-ebabdf60dd54"],
+Cell[1943, 62, 198, 3, 27, "Item", "ExpressionUUID" -> \
+"6bae2d6d-68af-46a5-8267-5ca7c168ddb0"],
+Cell[2144, 67, 200, 3, 23, "Subitem", "ExpressionUUID" -> \
+"957fd7a7-89c8-4b47-a0ac-2f152fa621d0"],
+Cell[2347, 72, 229, 4, 27, "Item", "ExpressionUUID" -> \
+"f4cdabc3-3544-47af-af6b-9f9059d8b188"],
+Cell[2579, 78, 185, 3, 27, "Item", "ExpressionUUID" -> \
+"4cbabe24-7cd3-41fb-8950-97183962e90f"],
+Cell[CellGroupData[{
+Cell[2789, 85, 172, 3, 23, "Subitem", "ExpressionUUID" -> \
+"15c8176e-a8f8-4097-a52b-b06402ed32cb"],
+Cell[2964, 90, 172, 3, 23, "Subitem", "ExpressionUUID" -> \
+"9d390c22-980f-4b89-b6c7-173e8ca9cf14"],
+Cell[3139, 95, 197, 3, 23, "Subitem", "ExpressionUUID" -> \
+"a848e08f-f456-4753-a7ec-3e5e803f93b7"]
+}, Open  ]],
+Cell[3351, 101, 162, 3, 27, "Item", "ExpressionUUID" -> \
+"3658672c-5bf7-4642-a320-11bf0d39e544"],
+Cell[3516, 106, 158, 3, 27, "Item", "ExpressionUUID" -> \
+"6ef6ad2f-d210-476f-95a7-1f5e72d77e79"],
+Cell[3677, 111, 243, 4, 27, "Item", "ExpressionUUID" -> \
+"599232e1-b1ba-43b7-91d6-e8337e573295"],
+Cell[3923, 117, 175, 3, 27, "Item", "ExpressionUUID" -> \
+"24620b00-e993-4c09-bfe3-e70e702a1778"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4147, 126, 176, 3, 62, "Section", "ExpressionUUID" -> \
+"d15e4280-b85e-47fc-bd03-10498b90764f"],
+Cell[CellGroupData[{
+Cell[4348, 133, 196, 3, 45, "Subsection", "ExpressionUUID" -> \
+"d4141fbd-f10f-49d5-8d8d-6a3d6aa53185"],
+Cell[CellGroupData[{
+Cell[4569, 140, 186, 3, 27, "Item", "ExpressionUUID" -> \
+"a69164d6-5cfa-4402-8f07-15e442ae188f"],
+Cell[4758, 145, 157, 3, 27, "Item", "ExpressionUUID" -> \
+"112b77a5-2a49-49c2-b7ed-95895a5749d4"],
+Cell[4918, 150, 161, 3, 27, "Item", "ExpressionUUID" -> \
+"f8926a66-49bb-4c8c-a5a9-2c01a6e1c78d"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5140, 160, 161, 3, 62, "Section", "ExpressionUUID" -> \
+"08689b3c-c5aa-4cac-80f9-775b4e36f9f3"],
+Cell[CellGroupData[{
+Cell[5326, 167, 159, 3, 45, "Subsection", "ExpressionUUID" -> \
+"d983b85a-96e6-431b-9b85-ef702b45ca40"],
+Cell[CellGroupData[{
+Cell[5510, 174, 195, 3, 27, "Item", "ExpressionUUID" -> \
+"50b11ff7-2206-4697-8f41-e89f21edc2fc"],
+Cell[5708, 179, 193, 3, 27, "Item", "ExpressionUUID" -> \
+"fd0010dd-f52c-4025-a0d2-af4757f4d819"]
+}, Open  ]]
+}, Open  ]],
+Cell[5928, 186, 176, 3, 45, "Subsection", "ExpressionUUID" -> \
+"b115d203-1e96-48df-a13e-25122c9cbec0"]
+}, Open  ]]
+}
+]
+*)
+
