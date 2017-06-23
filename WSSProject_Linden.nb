@@ -1,0 +1,167 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      5240,        157]
+NotebookOptionsPosition[      3621,        112]
+NotebookOutlinePosition[      4028,        128]
+CellTagsIndexPosition[      3985,        125]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Computation for Neuroscience", "Title",
+ CellChangeTimes->{{3.707232790833208*^9, 
+  3.70723279636767*^9}},ExpressionUUID->"4e9ce931-4b3e-4fcb-8f3a-\
+e0381c238d2c"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Create a book, in the format of An Elementary Introduction to the Wolfram \
+Language, covering topics related to neuroscience.  For the purpose of the \
+summer school, I will begin the process as outlined below.\
+\>", "Subsection",
+ CellChangeTimes->{
+  3.7072328248921857`*^9, {3.707233797765687*^9, 
+   3.707233810989097*^9}},ExpressionUUID->"3eb4952e-667c-4fcc-bbaa-\
+4b2e7cd80194"],
+
+Cell["Outline of the Book", "Outline1",
+ CellChangeTimes->{{3.707232836707593*^9, 
+  3.7072328474267087`*^9}},ExpressionUUID->"d0e2b2c1-a73f-4aa7-b072-\
+cfbc36d87fe1"],
+
+Cell[CellGroupData[{
+
+Cell["Create chapters relevant to Neural Systems", "Outline1",
+ CellChangeTimes->{{3.7072328512567344`*^9, 
+  3.7072328667221894`*^9}},ExpressionUUID->"29e58972-42da-482a-97d5-\
+72c1690f1b96"],
+
+Cell["\<\
+Neural Systems is the course I teach in the fall, so creating relevant \
+chapters means I can use some in my class.\
+\>", "Outline2",
+ CellChangeTimes->{{3.707232867522396*^9, 3.7072328716098366`*^9}, {
+  3.707233005545712*^9, 
+  3.7072330345456915`*^9}},ExpressionUUID->"b2cb1479-a504-40a4-8ddb-\
+b1b0040297fa"],
+
+Cell["\<\
+Neural Systems has its own course reader (created at Brown) so it is easy to \
+modify the course reader to include new information.\
+\>", "Outline2",
+ CellChangeTimes->{{3.707233035283471*^9, 3.707233065524005*^9}, {
+  3.7072338170141754`*^9, 
+  3.7072338170141754`*^9}},ExpressionUUID->"2fb56aa8-5fd3-4edd-b960-\
+786183ca1768"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Begin with a focus on one sequence - How does the superior colliculus \
+indicate that the eyes should move to a point of light?\
+\>", "Outline2",
+ CellChangeTimes->{{3.7072338186818433`*^9, 
+  3.7072338636271505`*^9}},ExpressionUUID->"4870bd86-4675-418f-8856-\
+b40716eb4a45"],
+
+Cell["Anatomy of superior colliculus", "Outline3",
+ CellChangeTimes->{{3.707233869106184*^9, 3.7072338759106526`*^9}, {
+  3.7072341050419226`*^9, 
+  3.7072341064588504`*^9}},ExpressionUUID->"6801d895-1d71-4d82-8cb9-\
+f466389b6b68"],
+
+Cell["Coordinate Transformations (RFs/PIs/RFIs)", "Outline3",
+ CellChangeTimes->{{3.707234072137952*^9, 
+  3.7072340845729856`*^9}},ExpressionUUID->"27ad6c67-e941-4939-a9b0-\
+d65e3ac32401"],
+
+Cell["Tuning Curves", "Outline3",
+ CellChangeTimes->{{3.7072340851732993`*^9, 
+  3.7072340879958076`*^9}},ExpressionUUID->"dbc039f2-2fe6-4638-aec2-\
+59748fc77249"],
+
+Cell["Population Coding", "Outline3",
+ CellChangeTimes->{{3.7072340883109627`*^9, 
+  3.707234090774201*^9}},ExpressionUUID->"1623d0b2-3ec2-481e-a9b4-\
+604441ee1bc2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["\<\
+Identify additional demonstrations that can be added to the book\
+\>", "Outline1",
+ CellChangeTimes->{{3.7072335112021713`*^9, 3.707233526401429*^9}, {
+  3.70723379014297*^9, 
+  3.7072337939939632`*^9}},ExpressionUUID->"e3ecfb30-8b42-4736-8ebd-\
+a046e4c5fde4"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718, 868},
+WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (April 27, 2017)",
+StyleDefinitions->FrontEnd`FileName[{"Utility"}, "Outline.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 170, 3, 101, "Title", "ExpressionUUID" -> \
+"25029848-c6f5-40f7-bcaa-abf76b606d04"],
+Cell[CellGroupData[{
+Cell[778, 29, 395, 8, 109, "Subsection", "ExpressionUUID" -> \
+"00bfeca3-76fa-466e-9e9c-cd88b45959cc"],
+Cell[1176, 39, 167, 3, 36, "Outline1", "ExpressionUUID" -> \
+"ca3ee088-fd17-4005-a851-19039b2eb96c"],
+Cell[CellGroupData[{
+Cell[1368, 46, 192, 3, 33, "Outline1", "ExpressionUUID" -> \
+"aac760d5-1385-4311-9ffc-e5af71ad0422"],
+Cell[1563, 51, 322, 7, 51, "Outline2", "ExpressionUUID" -> \
+"4dc905bd-f2e6-4d34-a09d-14f7e9e8553a"],
+Cell[1888, 60, 338, 7, 48, "Outline2", "ExpressionUUID" -> \
+"1c4852b0-d937-4269-ac8d-c3d14dfa6221"],
+Cell[CellGroupData[{
+Cell[2251, 71, 285, 6, 48, "Outline2", "ExpressionUUID" -> \
+"0036afb5-59ab-4fd5-903e-d0ccacf15876"],
+Cell[2539, 79, 231, 4, 28, "Outline3", "ExpressionUUID" -> \
+"7f633a13-b147-43d3-9cf9-8728d33feffa"],
+Cell[2773, 85, 189, 3, 25, "Outline3", "ExpressionUUID" -> \
+"116021a8-b46a-47c5-b714-ed25baa0582b"],
+Cell[2965, 90, 163, 3, 25, "Outline3", "ExpressionUUID" -> \
+"b83f7cee-aa90-4122-9609-083634bcd932"],
+Cell[3131, 95, 165, 3, 25, "Outline3", "ExpressionUUID" -> \
+"9bbc50d0-a06e-4a6d-b8fa-e34c6f907485"]
+}, Open  ]]
+}, Open  ]],
+Cell[3323, 102, 270, 6, 59, "Outline1", "ExpressionUUID" -> \
+"6c0f1bdb-ba33-4baa-84d9-606213ba7927"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
